@@ -1,0 +1,14 @@
+html, body {height: 100%;  }
+#chesscontainer { border: 5px groove black; max-width: 960px; }
+.chessboard {border: 5px groove black; border-collapse: collapse; }
+.chessboard td, .chessboard th
+{
+    width: 50px; height: 50px;
+    border: 1px solid black;
+}
+img {width: 45px; height: 45px; align-self: center;}
+
+.chessboard:nth-child(even) td:nth-child(even) {background-color: rgb(149, 62, 31);}
+.chessboard:nth-child(odd) td:nth-child(odd) {background-color: rgb(149, 62, 31);}
+
+.border_chessboard {background-color: burlywood;}
